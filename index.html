@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bus</title>
+  </head>
+  <body>
+    <table id="tablaPasajeros" align="center" border=1>
+      <tr>
+          <td id="04">04</td>
+          <td id="08">08</td>
+          <td id="12">12</td>
+          <td id="16">16</td>
+          <td id="20">20</td>
+          <td id="24">24</td>
+          <td id="28">28</td>
+          <td id="32">32</td>
+      </tr>
+      <tr>
+          <td id="03">03</td>
+          <td id="07">07</td>
+          <td id="11">11</td>
+          <td id="15">15</td>
+          <td id="19">19</td>
+          <td id="23">23</td>
+          <td id="27">27</td>
+          <td id="31">31</td>
+      </tr>
+      <tr>
+          <td id="02">02</td>
+          <td id="06">06</td>
+          <td id="10">10</td>
+          <td id="14">14</td>
+          <td id="18">18</td>
+          <td id="22">22</td>
+          <td id="26">26</td>
+          <td id="30">30</td>
+      </tr>
+      <tr>
+          <td id="01">01</td>
+          <td id="05">05</td>
+          <td id="09">09</td>
+          <td id="13">13</td>
+          <td id="17">17</td>
+          <td id="21">21</td>
+          <td id="25">25</td>
+          <td id="29">29</td>
+      </tr>
+    </table> <br/>
+    <div>
+      <div align="center">
+        <h3>Búsqueda</h3>
+        <label>DNI:</label>
+        <input type="number" id="buscarDNI" placeholder="Ingrese el DNI">
+        <button id="btnBuscarDni">Buscar</button>
+        <div align="center" id="dniEncontrado"></div>
+      </div><br/>
+
+      <div align="center">
+        <h3><strong>Registro de Pasajeros</strong></h3>
+        <label>Asiento Seleccionado</label>
+        <div id="mostrar" align="center"></div>
+        <div id="estado" align="center"></div>
+
+        <div id="datos">
+          <input type="text" id="userNombre" placeholder="Nombre"><br/>
+          <input type="text" id="userApellido" placeHolder="Apellido"><br />
+          <input type="number" id="userDNI" placeHolder="DNI">
+        </div><br/>
+
+        <div id="botones">
+          <button id="btnReservar">Reservar</button>
+          <button id="btnCancelar">Cancelar</button>
+        </div><br/>
+        <div id="imprimir" align="center"></div>
+        <button id="btnLimpiarReservar">Aceptar</button>
+      </div>
+
+      <div align="center">
+        <h3>Registro Completo</h3>
+        <button id="btnListar">Listar</button>
+        <button id="btnLimpiarLista">Limpiar</button>
+        <div id="listado"></div>
+      </div>
+    </div>
+  <script src="assets/js/javascript.js"></script>
+  </body>
+</html>
